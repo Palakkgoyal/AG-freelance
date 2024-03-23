@@ -20,10 +20,10 @@ const Footer = () => {
               <a href="#projects">Projects</a>
             </li>
             <li className="cursor-pointer hover:underline">
-              <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+              <a href="https://linkedin.com/in/anukiranghosh" target="_blank">LinkedIn</a>
             </li>
             <li className="cursor-pointer hover:underline">
-              <a href="https://twitter.com/" target="_blank">Twitter</a>
+              <a href="https://twitter.com/anukiranghosh" target="_blank">Twitter</a>
             </li>
           </ul>
         </div>

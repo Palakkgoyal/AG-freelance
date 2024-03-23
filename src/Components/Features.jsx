@@ -4,17 +4,17 @@ const data = [
   {
     src: featureClickImg,
     title: "User Interface",
-    text: "We have already got a few ready made templates for better project management that you can use now",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In nisi reprehenderit odit ipsam, quibusdam",
   },
   {
     src: featureHandImg,
-    title: "User Interface",
-    text: "We have already got a few ready made templates for better project management that you can use now",
+    title: "No Code Website",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In nisi reprehenderit odit ipsam, quibusdam",
   },
   {
     src: featureSolImg,
-    title: "User Interface",
-    text: "We have already got a few ready made templates for better project management that you can use now",
+    title: "Marketing Solution",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In nisi reprehenderit odit ipsam, quibusdam",
   },
 ];
 

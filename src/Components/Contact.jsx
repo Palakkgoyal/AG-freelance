@@ -5,6 +5,7 @@ import { CiPhone } from "react-icons/ci";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { CiLinkedin } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
+import { PiYoutubeLogo } from "react-icons/pi";
 
 const Contact = () => {
   return (
@@ -32,12 +33,12 @@ const Contact = () => {
           <div className="flex md:flex-col flex-wrap gap-3">
             <a
               className="flex gap-4 items-center cursor-pointer"
-              href="mailto:testing@example.com"
+              href="mailto:ghoshkiran2017@gmail.com"
             >
               <span>
                 <MdOutlineMailOutline className="text-blue-800 w-5 h-5" />
               </span>
-              <p>testing@gmail.com</p>
+              <p>ghoshkiran2017@gmail.com</p>
             </a>
             <div className="flex gap-4 items-center">
               <span>
@@ -95,14 +96,18 @@ const Contact = () => {
         <div className="mt-10 flex">
           <a
             className="hover:border shadow-sm hover:shadow-xl border-solid border-gray-200 w-fit px-5 py-3 flex gap-2 items-center text-lg font-semibold text-gray-500 hover:rounded-md transition-all ease-in cursor-pointer"
-            href="https://linkedin.com/in/tester"
+            href="https://linkedin.com/in/anukiranghosh"
           >
             <CiLinkedin className="scale-125" />
             LinkedIn
           </a>
-          <a className="hover:border shadow-sm hover:shadow-xl border-solid border-gray-200 w-fit px-5 py-3 flex gap-2 items-center text-lg font-semibold text-gray-500 hover:rounded-md transition-all ease-in cursor-pointer">
-            <FaXTwitter className="" />
+          <a className="hover:border shadow-sm hover:shadow-xl border-solid border-gray-200 w-fit px-5 py-3 flex gap-2 items-center text-lg font-semibold text-gray-500 hover:rounded-md transition-all ease-in cursor-pointer" href="https://twitter.com/anukiranghosh">
+            <FaXTwitter />
             Twitter
+          </a>
+          <a className="hover:border shadow-sm hover:shadow-xl border-solid border-gray-200 w-fit px-5 py-3 flex gap-2 items-center text-lg font-semibold text-gray-500 hover:rounded-md transition-all ease-in cursor-pointer" href=" https://www.youtube.com/@AnukiranGhosh">
+            <PiYoutubeLogo/>
+            YouTube
           </a>
         </div>
       </div>
