@@ -9,7 +9,10 @@ import { PiYoutubeLogo } from "react-icons/pi";
 
 const Contact = () => {
   return (
-    <div className="bg-slate-50 py-20 relative z-10 overflow-hidden" id="contact">
+    <div
+      className="bg-slate-50 py-20 relative z-10 overflow-hidden"
+      id="contact"
+    >
       <div className="bg-white w-[90vw] max-w-[1000px] mx-auto py-10 px-5 md:p-16 rounded-lg">
         <div className="relative w-full flex justify-center md:justify-between items-center gap-3">
           <div className="">
@@ -59,9 +62,11 @@ const Contact = () => {
             </a>
           </div>
           <form
-            action=""
+            name="contact"
+            method="post"
             className="flex flex-col gap-4 w-full mx-auto max-w-[450px]"
           >
+            <input type="hidden" name="form-name" value="contact" />
             <input
               type="text"
               name="name"
@@ -87,7 +92,10 @@ const Contact = () => {
               className="border focus-visible:outline-none focus-visible:shadow-lg focus-visible:bg-slate-50 border-gray-50 shadow-sm px-3 py-2 rounded-md w-full"
               required
             />
-            <button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 w-fit md:text-lg rounded-lg font-bold">
+            <button
+              type="submit"
+              className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 w-fit md:text-lg rounded-lg font-bold"
+            >
               Let's talk
               <HiArrowLongRight />
             </button>
@@ -101,12 +109,18 @@ const Contact = () => {
             <CiLinkedin className="scale-125" />
             LinkedIn
           </a>
-          <a className="hover:border shadow-sm hover:shadow-xl border-solid border-gray-200 w-fit px-5 py-3 flex gap-2 items-center text-lg font-semibold text-gray-500 hover:rounded-md transition-all ease-in cursor-pointer" href="https://twitter.com/anukiranghosh">
+          <a
+            className="hover:border shadow-sm hover:shadow-xl border-solid border-gray-200 w-fit px-5 py-3 flex gap-2 items-center text-lg font-semibold text-gray-500 hover:rounded-md transition-all ease-in cursor-pointer"
+            href="https://twitter.com/anukiranghosh"
+          >
             <FaXTwitter />
             Twitter
           </a>
-          <a className="hover:border shadow-sm hover:shadow-xl border-solid border-gray-200 w-fit px-5 py-3 flex gap-2 items-center text-lg font-semibold text-gray-500 hover:rounded-md transition-all ease-in cursor-pointer" href=" https://www.youtube.com/@AnukiranGhosh">
-            <PiYoutubeLogo/>
+          <a
+            className="hover:border shadow-sm hover:shadow-xl border-solid border-gray-200 w-fit px-5 py-3 flex gap-2 items-center text-lg font-semibold text-gray-500 hover:rounded-md transition-all ease-in cursor-pointer"
+            href=" https://www.youtube.com/@AnukiranGhosh"
+          >
+            <PiYoutubeLogo />
             YouTube
           </a>
         </div>
